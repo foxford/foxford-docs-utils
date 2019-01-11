@@ -1,0 +1,38 @@
+{
+  "name": "@foxford/docs-utils",
+  "version": "0.0.1",
+  "description": "Foxford packages docs utils",
+  "bugs": {
+    "url": "https://github.com/netology-group/foxford-docs-utils/issues"
+  },
+  "repository": {
+    "url": "https://github.com/netology-group/foxford-docs-utils"
+  },
+  "license": "MIT",
+  "author": "@foxford",
+  "contributors": [],
+  "files": [
+    "assets",
+    "lib"
+  ],
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "eslint --ext .jsx,.js .",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^15.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-adequate-react": "^1.1.1"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^15.6.2"
+  }
+}
