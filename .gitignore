@@ -1,7 +1,6 @@
 .DS_Store
 .nyc_output
 /es
-/lib
 /packages
 /styleguide
 node_modules
