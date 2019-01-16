@@ -1,0 +1,63 @@
+.container
+  display: block
+  font-family: Circe
+
+.header
+  padding: 8px 15px
+  box-sizing: border-box
+  display: flex
+  flex-flow: row nowrap
+  align-content: center
+  justify-content: center
+  align-items: center
+  border-bottom: 1px solid rgba(0,0,0,.1)
+  color: #666
+
+.wrapper
+  padding: 15px
+  box-sizing: border-box
+
+.transparent
+  background-color: #fff
+  background-image: linear-gradient(45deg, #efefef 25%, transparent 25%, transparent 75%, #efefef 75%, #efefef), linear-gradient(45deg, #efefef 25%, transparent 25%, transparent 75%, #efefef 75%, #efefef)
+  background-position: 0 0, 10px 10px
+  background-size: 20px 20px
+
+.white
+  background: #fff
+
+.black
+  background: #000
+
+.beige
+  background: #fff4eb
+
+.spacer
+  flex: 1 1 auto
+
+.checkbox
+  display: inline-block
+  margin: 2px 0 2px 15px
+  cursor: pointer
+  user-select: none
+
+.input
+  margin-right: 10px
+  vertical-align: middle
+  display: none
+
+  &:checked + .swatch
+    border-color: #7a77de
+    box-shadow: 2px 2px
+
+  &:checked ~ .label
+    color: #7a77de
+
+.swatch
+  display: inline-block
+  width: 1em
+  height: 1em
+  margin-right: 4px
+  vertical-align: middle
+  box-sizing: border-box
+  border: 1px solid currentColor
