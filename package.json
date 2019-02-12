@@ -1,6 +1,6 @@
 {
   "name": "@foxford/docs-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Foxford packages docs utils",
   "bugs": {
     "url": "https://github.com/netology-group/foxford-docs-utils/issues"
