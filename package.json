@@ -1,6 +1,6 @@
 {
   "name": "@foxford/docs-utils",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Foxford packages docs utils",
   "bugs": {
     "url": "https://github.com/netology-group/foxford-docs-utils/issues"
@@ -26,12 +26,15 @@
   "devDependencies": {
     "eslint": "^5.12.0",
     "eslint-config-adequate-react": "^1.1.1",
-    "prop-types": "^15.6.2",
-    "react": "^16.7.0"
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2"
   },
   "peerDependencies": {
     "prop-types": "^15.6",
-    "react": "^15.6 || ^16.x",
-    "react-styleguidist": "8.0"
+    "react": "^15.6 || ^16.x || ^17.x",
+    "react-styleguidist": "11.1.6"
+  },
+  "dependencies": {
+    "@bhoodream/leviathan.js": "0.0.3"
   }
 }
